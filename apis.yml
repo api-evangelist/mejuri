@@ -1,7 +1,28 @@
 aid: mejuri
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mejuri.png
 name: Mejuri
-description: Mejuri is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Mejuri is a direct-to-consumer fine jewelry brand founded in Toronto that
+  designs and sells everyday fine jewelry — rings, earrings, necklaces and
+  bracelets — direct to consumers through its e-commerce site, mobile app, and
+  a growing network of retail stores across North America, Australia, and the
+  United Kingdom. The company also runs the Mejuri+ membership program, offers
+  in-store ear piercing services, and hosts community events. Surfaced as a
+  portfolio company of 500 Global and added to the API Evangelist network, this
+  profile has been through the enrichment pipeline: Mejuri operates a
+  consumer-facing commerce experience and publishes no public developer API,
+  developer portal, or OpenAPI surface.
 url: https://raw.githubusercontent.com/api-evangelist/mejuri/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Jewelry
+- Fashion
+- Retail
+- E-Commerce
+- Direct-to-Consumer
+- Consumer Brand
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://mejuri.com
+- type: Blog
+  url: https://mejuri.com/blog
+- type: Support
+  url: https://mejuri.com/support/contact-us
+- type: PrivacyPolicy
+  url: https://mejuri.com/company/privacy
+- type: TermsOfService
+  url: https://mejuri.com/company/terms
+- type: DomainSecurity
+  url: security/mejuri-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
